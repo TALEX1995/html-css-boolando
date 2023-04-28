@@ -39,6 +39,11 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Header */
 
@@ -53,22 +58,39 @@ header {
     color: white;
 }
 
+
 ul {
     list-style-type: none;
+    flex-basis: calc(100% / 3);
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 li {
     display: inline;
 }
 
+.icon {
+    flex-basis: calc(100% / 3);
+    text-align: right;
+}
+
 #logo {
     width: 200px;
 }
-
 .nav-bar {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    flex-basis: 100%;
+}
+
+ul + div {
+    flex-basis: calc(100% / 3);
+    justify-content: center;
 }
 
 /* Main */
@@ -76,6 +98,7 @@ li {
 .column {
     flex-wrap: wrap;
     gap: 50px 15px;
+    padding-bottom: 70px;
 }
 
 
