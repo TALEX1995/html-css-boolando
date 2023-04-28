@@ -21,14 +21,17 @@
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
 
 /* Generics */
 
 body {
     padding-top: 90px;
+    font-family: sans-serif;
 }
-
-
 
 
 /* Header */
@@ -40,4 +43,19 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+}
+
+
+/* Main */
+
+.column {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.card {
+    flex-basis: calc(100% / 3 - 20px);
+    border: 1px solid black;
+    height: 200px;
 }
