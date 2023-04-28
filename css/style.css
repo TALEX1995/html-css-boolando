@@ -20,3 +20,24 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+
+/* Generics */
+
+body {
+    padding-top: 90px;
+}
+
+
+
+
+/* Header */
+
+header {
+    position: fixed;
+    background-color: #ff6900;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
