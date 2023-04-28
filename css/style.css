@@ -102,3 +102,14 @@ h4 {
     color: var(--color-red);
     font-weight: bold;
 }
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .img-hover {
+    display: inline;
+}
