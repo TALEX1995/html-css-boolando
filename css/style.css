@@ -113,3 +113,7 @@ h4 {
 .card:hover .img-hover {
     display: inline;
 }
+
+.favorite:hover {
+    color: red;
+}
