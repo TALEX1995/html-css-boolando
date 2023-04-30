@@ -158,3 +158,34 @@ h4 {
 .favorite:hover {
     color: red;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1a1a1a;
+}
+
+h5, h6 {
+    color: white;
+    padding: 10px 0;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.footer-flex div {
+    padding-bottom: 15px;
+}
+
+.flex-column a {
+    font-size: 14px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.footer-flex {
+    justify-content: space-between;
+}
